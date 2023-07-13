@@ -33,5 +33,3 @@ function result(str){
 }
 
 alert(result(str))
-
-result(str)
