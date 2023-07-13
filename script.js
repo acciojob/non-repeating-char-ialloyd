@@ -2,7 +2,7 @@
 
 let map=new Map();
 
-let str=prompt("Enter a string")
+//let str=prompt("Enter a string")
 
 function result(str){
 
@@ -19,15 +19,21 @@ function result(str){
 	}
 
 	let res="";
+	let flag=false;
 	map.forEach((value,key)=>{
 
 		if(value==1){
-
+			flag=true;
 			res=key;
 			return res;
 			
 		}
 	})
+
+	if(flag==false){
+
+		return null;
+	}
 
 	return res;
 	
