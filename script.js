@@ -2,7 +2,7 @@
 
 let map=new Map();
 
-//let str=prompt("Enter a string")
+let str=prompt("Enter a string")
 
 function result(str){
 
