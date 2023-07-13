@@ -24,7 +24,8 @@ function result(str){
 		if(value==1){
 
 			res=key;
-			break;
+			return res;
+			
 		}
 	})
 
